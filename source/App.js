@@ -1,10 +1,13 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 const App = () => {
   return (
-    <View>
-      <Text>this is monitor website </Text>
-    </View>
+    <SafeAreaProvider>
+      <View>
+        <Text>this is monitor website XXX </Text>
+      </View>
+    </SafeAreaProvider>
   );
 };
 
